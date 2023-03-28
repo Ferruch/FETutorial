@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="us">
+
+<head>
+    <meta charset="es-419">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.theweatherChannel.com/</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="flex header">
+        <h1>Weater Dashboard</h1>
+    </header>
+    <p></p>
+    <section class="flex weater">
+<!-- Search for a city -->
+        <aside class="selectCity">
+            <div class="flex search">
+            <h4>Search for a City:</h4>
+            <input class= "textInPut" type="search" placeholder="ex: San Diego" id="locationSearchInput">
+            <button class="searchButton">Search</button>
+            </div>
+            <hr>
+            <!-- line -->
+            <div class="flex search">
+                <button>Atlanta</button><p></p>
+                <button>Seattle</button><p></p>
+                <button>Orlando</button><p></p>
+                <button>Denver </button><p></p>
+                <button>San Francisco</button><p></p>
+                </p>
+            </div>
+        </aside>
+
+        <section class="weaterForecast">
+            <div class="flex currentDay">
+                <div class="flex headCurrentDay">
+                    <h2>Atlanta</h2>
+                    <span id="today"> </span>
+                    <img src="/images/shining-sun.jpg" alt="sunyDay" width="30px">
+                </div>
+                <p>Temp: <span>76.62 </span>°F </p>
+                <p>Wind: <span>8.43 </span>MPH </p>
+                <p>Humidity: <span>44 </span>% </p></div>
+            </div>
+
+            <div class="cityForecast">
+                <h5>5-day forecast:</h5>
+                <div class="flex Day5">
+                    <div id="day1" class="square Day5"> <div>
+                        <span id="today"> </span>
+                        <img src="/images/shining-sun.jpg" alt="sunyDay" width="30px">
+                    </div>
+                    <p>Temp: <span>76.62 </span>°F </p>
+                    <p>Wind: <span>8.43 </span>MPH </p>
+                    <p>Humidity: <span>44 </span>% </p></div>
+                    <div id="day2" class="square"> Hello</div>
+                    <div id="day3" class="square"> Hello</div>
+                    <div id="day4" class="square"> Hello</div>
+                    <div id="day5" class="square"> Hello</div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="/javascript/index.js"></script>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
